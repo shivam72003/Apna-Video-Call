@@ -5,14 +5,14 @@ import { useNavigate } from "react-router-dom";
 import server from "../production.js";
 
 
-const server = server;
+const newserver = server;
 
 
 
 export const AuthContext = createContext({});
 
 const client = axios.create({
-    baseURL: `${server}/api/v1/users`
+    baseURL: `${newserver}/api/v1/users`
 })
 
 
