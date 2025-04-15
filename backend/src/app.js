@@ -31,7 +31,7 @@ app.set("port", process.env.PORT || 8000);
 
 /////routes
 
-app.use("/", userRoutes);
+app.use("/api/v1/users", userRoutes);
 
 
 let dburl = process.env.MONGOURL
