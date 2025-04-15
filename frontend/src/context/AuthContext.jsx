@@ -12,7 +12,7 @@ const newserver = server;
 export const AuthContext = createContext({});
 
 const client = axios.create({
-    baseURL: `${newserver}/api/v1/users`
+    baseURL: `${newserver}api/v1/users`
 })
 
 
