@@ -37,7 +37,7 @@ function Landing() {
           </div>
         </div>
         <div className="part2">
-          <img src="https://apnajob.in/wp-content/uploads/2021/11/tab1.jpg" alt="" />
+          <img  src="https://apnajob.in/wp-content/uploads/20211.jpg" alt="" />
         </div>
       </div>
     </div>
